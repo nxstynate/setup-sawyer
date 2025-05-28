@@ -1,0 +1,9 @@
+
+JETBRAINS MONO
+scoop bucket add nerd-fonts
+scoop install nerd-fonts/JetBrains-Mono
+
+PLEX MONO
+scoop bucket add nerd-fonts
+scoop install nerd-fonts/IBMPlexMono
+
