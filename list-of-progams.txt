@@ -1,0 +1,68 @@
+POWERSHELL 7
+winget install --id Microsoft.PowerShell --source winget
+
+TERMINAL ICONS
+https://github.com/devblackops/Terminal-Icons
+Install-Module -Name Terminal-Icons -Repository PSGallery
+or
+scoop bucket add extras
+scoop install terminal-icons
+
+OH MY POSH
+https://ohmyposh.dev/docs/installation/windows
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
+ZOXIDE
+https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation
+scoop install zoxide
+
+RIP GREP
+https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
+scoop install ripgrep
+
+FZF
+https://www.powershellgallery.com/packages/PSFzf/2.6.1
+Install-Module -Name PSFzf -RequiredVersion 2.6.1
+
+FD FIND
+https://github.com/sharkdp/fd?tab=readme-ov-file#installation
+scoop install fd
+
+PS READ LINE
+https://github.com/PowerShell/PSReadLine
+Install-Module PSReadLine -Repository PSGallery -Scope CurrentUser -Force
+
+FAST FETCH
+https://github.com/fastfetch-cli/fastfetch
+scoop install fastfetch
+
+NEOVIM
+https://github.com/neovim/neovim/blob/master/INSTALL.md
+scoop bucket add main
+scoop install neovim
+
+WINDOWS TERMINAL THEMES
+https://windowsterminalthemes.dev/
+{
+  "name": "Solarized Dark - Patched",
+  "black": "#002831",
+  "red": "#d11c24",
+  "green": "#738a05",
+  "yellow": "#a57706",
+  "blue": "#2176c7",
+  "purple": "#c61c6f",
+  "cyan": "#259286",
+  "white": "#eae3cb",
+  "brightBlack": "#475b62",
+  "brightRed": "#bd3613",
+  "brightGreen": "#475b62",
+  "brightYellow": "#536870",
+  "brightBlue": "#708284",
+  "brightPurple": "#5956ba",
+  "brightCyan": "#819090",
+  "brightWhite": "#fcf4dc",
+  "background": "#001e27",
+  "foreground": "#708284",
+  "selectionBackground": "#002831",
+  "cursorColor": "#708284"
+}
